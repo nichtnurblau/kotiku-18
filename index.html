@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Влада, с днём рождения ♡</title>
+<meta name="description" content="Одно особенное письмо для одной особенной девушки.">
+<meta name="theme-color" content="#65172d">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2365172d'/%3E%3Ctext x='32' y='47' text-anchor='middle' font-size='48' fill='%23ffe2e6'%3E%E2%99%A5%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<div class="topline"><span>ОДНО ОСОБЕННОЕ ПИСЬМО</span><span>ТОЛЬКО ДЛЯ ТЕБЯ ♡</span></div>
+<header><p class="eyebrow">ТВОЯ НОВАЯ ГЛАВА</p><h1>котику <em>18 ♡</em></h1></header>
+<section class="letter-stage" aria-label="Поздравительная открытка">
+<button class="envelope" id="open" aria-label="Открыть письмо" aria-expanded="false" aria-controls="letter">
+<span class="envelope-inner"></span><span class="envelope-note">Для самой особенной</span><span class="flap"></span><span class="pocket"></span><span class="address">владочке <span>с любовью</span></span><span class="seal">♥</span>
+</button>
+<p class="hint" id="hint">Нажми на сердечко.</p>
+<article class="letter" id="letter" hidden>
+<div class="letter-top"><span>С ДНЁМ РОЖДЕНИЯ, ЛЮБИМАЯ</span><button id="close" aria-label="Сложить письмо">✕</button></div>
+<h2>Пусть сбывается<br><em>самое заветное.</em></h2>
+<div class="video-wrap" id="video-wrap">
+<video id="video" controls playsinline preload="metadata" hidden></video>
+<div class="message" id="message"><span class="big-heart">♡</span><p>Пусть в твоей жизни будет много счастья,<br>смелых мечтаний и любви.</p><p class="small">А я хочу быть рядом.</p></div>
+</div>
+<p id="video-error" hidden>Видео пока не загрузилось. Попробуй открыть письмо чуть позже.</p>
+<p class="signature">С твоим днём, Влада. <span>♡</span></p>
+<button class="replay" id="replay" hidden>Посмотреть ещё раз ↺</button>
+</article>
+</section>
+<footer><span>18</span><span>♡</span></footer>
+</main>
+<script src="config.js"></script><script src="script.js"></script>
+</body></html>
